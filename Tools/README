@@ -1,0 +1,10 @@
+#Caffe Build:
+
+cd caffe/build
+cmake ../
+make 
+cp -r caffe/include/caffe/* include/caffe/
+cp caffe/build/lib/* lib
+
+# TODO
+rm hdf5 lmdb leveldb nccl python matlab

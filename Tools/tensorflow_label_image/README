@@ -1,0 +1,4 @@
+This is an example to demostrate how to utilize tensorflow.
+
+you can run the example via:
+label_image --graph=./data/squeezenet.pb --input_height=384 --input_width=1248 --image=./data/sample.png
